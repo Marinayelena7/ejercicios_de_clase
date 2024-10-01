@@ -1,0 +1,9 @@
+#Calcular el salario mensual
+print("Dime las horas que trabajas por semana")
+num1 = int(input())
+print("Dime cuanto cobras por hora")
+num2= int(input())
+#Realizamos la operación
+
+total = num1*num2*4
+print("Su salario mensual es:", num1, "*", num2,"*",4, "=", total, "euros")
